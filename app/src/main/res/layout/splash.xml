@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ImgBtnContinue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/estellogo" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="15dp" android:textColor="#0000ff" android:id="@id/SwipeCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="69dp" android:text="@string/disclaimertext" android:layout_below="@id/ImgBtnContinue" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15dp" android:textColor="#0000ff" android:id="@id/copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@string/copyright1" android:layout_below="@id/SwipeCard" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/ImgBtnExit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blank_strip" android:layout_below="@id/ImgBtnContinue" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

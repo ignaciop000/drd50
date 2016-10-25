@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg480" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/estellogo" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blank_strip" android:layout_below="@id/imageView1" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+        <ImageButton android:id="@id/ImgActivateAcc" android:background="@drawable/activate_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:src="@drawable/activate_button" android:layout_below="@id/imageView3" android:layout_centerHorizontal="true" android:onClick="OnClick" />
+        <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14dp" android:src="@drawable/mposlogo" android:layout_above="@id/imageView3" android:layout_alignParentRight="true" />
+        <ImageButton android:id="@id/imgForgotMPIN" android:background="@drawable/contactus_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:src="@drawable/contactus_button" android:layout_below="@id/ImgActivateAcc" android:layout_alignLeft="@id/ImgActivateAcc" android:onClick="OnClick" />
+        <ImageButton android:id="@id/imgRefundBtn" android:background="@drawable/exit_button_372x66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:src="@drawable/exit_button_372x66" android:layout_below="@id/imgForgotMPIN" android:layout_alignLeft="@id/imgForgotMPIN" android:onClick="OnClick" />
+    </RelativeLayout>
+</ScrollView>

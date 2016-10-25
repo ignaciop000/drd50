@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout android:id="@id/AbsoluteLayout1" android:background="@drawable/bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/ImgBtnContinue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/estellogo" android:layout_x="3dp" android:layout_y="10dp" />
+        <TextView android:textSize="19dp"  android:id="@id/Header1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End User License Agreement" android:layout_x="49dp" android:layout_y="96dp" />
+        <TextView android:textSize="22dp" android:textColor="#0000ff" android:id="@id/Header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Estel m-POS Solution" android:layout_x="94dp" android:layout_y="18dp" />
+        <TextView android:id="@id/Text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ESTEL PAYMENT APP" android:layout_x="60dp" android:layout_y="192dp" />
+        <TextView  android:id="@id/Text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="END USER LICENSE AGREEMENT" android:layout_x="26dp" android:layout_y="212dp" />
+        <TextView  android:id="@id/Text4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="('End User License Agreement')" android:layout_x="33dp" android:layout_y="234dp" />
+        <TextView  android:id="@id/Text5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Last Modified :July 29, 2013" android:layout_x="48dp" android:layout_y="256dp" />
+        <TextView android:textSize="15dp" android:id="@id/Text6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PLEASE REVIEW THE TERMS OF THIS END USER LICENSE AGREEMENT CAREFULLY BEFORE DOWNLOADING OR USING THIS ESTEL M-POS SOLUTION APP. YOU WILL HAVE INDICATED YOUR ACKNOWLEDGEMENT AND AGREEMENT TO EACH TERM CONDITION" android:layout_x="5dp" android:layout_y="283dp" />
+        <TextView android:textSize="15dp" android:id="@id/Text1" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="By clicking the 'I Agree' button you signify you have received, understand and agree to the End User License Agreement." android:layout_x="4dp" android:layout_y="120dp" />
+        <ImageView android:id="@id/ImgBtnExit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blank_strip" android:layout_x="0dp" android:layout_y="66dp" />
+        <Button android:id="@id/BtnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:layout_x="29dp" android:layout_y="425dp" />
+        <Button android:id="@id/BtnAgree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="I Agree" android:layout_x="220dp" android:layout_y="427dp" />
+    </AbsoluteLayout>
+</ScrollView>

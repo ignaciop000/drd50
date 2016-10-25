@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ImgBtnContinue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/estellogo" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/ImgBtnActivate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quick_sale_button" android:layout_below="@id/ImgBtnContinue" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+    <TextView android:id="@id/textViewSwipeCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31dp" android:text="@string/labelSwipeYourCard" android:layout_below="@id/TxtTime" android:layout_centerHorizontal="true"  />
+    <ImageView android:id="@id/ImgExitBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tab" android:scaleType="fitEnd" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageButton android:id="@id/ImgBtnMenuSwipe" android:background="@drawable/menu_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_button" android:layout_alignTop="@id/ImgExitBtn" android:layout_alignParentLeft="true" android:onClick="OnClick" />
+    <TextView android:id="@id/TxtDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27dp" android:text="TextView" android:layout_below="@id/ImgBtnActivate" android:layout_alignRight="@id/ImgBtnContinue"  />
+    <ImageButton android:id="@id/ImgBtnSetupSwipe" android:background="@drawable/setup_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setup_button" android:layout_alignTop="@id/ImgExitBtn" android:layout_centerHorizontal="true" android:onClick="OnClick" />
+    <ImageButton android:id="@id/ImgBtnExitSwipe" android:background="@drawable/exit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/exit_button" android:layout_alignTop="@id/ImgExitBtn" android:layout_alignParentRight="true" android:onClick="OnClick" />
+    <TextView android:id="@id/TxtTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_alignBaseline="@id/TxtDate" android:layout_alignLeft="@id/imageView1" android:layout_alignBottom="@id/TxtDate"  />
+    <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp" android:src="@drawable/mposlogo" android:layout_toRightOf="@id/textViewSwipeCard" android:layout_alignBottom="@id/ImgBtnContinue" android:layout_alignParentRight="true" />
+    <Button android:id="@id/bt_start_transaction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/start_transaction" android:layout_below="@id/textViewSwipeCard" android:layout_centerHorizontal="true" />
+</RelativeLayout>
